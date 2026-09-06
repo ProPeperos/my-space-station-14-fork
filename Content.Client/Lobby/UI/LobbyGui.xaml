@@ -82,19 +82,14 @@
                     <!-- Voting & misc button bar -->
                     <BoxContainer Orientation="Horizontal" MinSize="0 40" HorizontalAlignment="Center">
                         <Button Name="RoundSummaryButton" Access="Public" ToggleMode="true"
-                            StyleClasses="ButtonBig OpenRight" Text="{Loc 'ui-lobby-round-summary-button'}">
-                        </Button>
+                            StyleClasses="ButtonBig OpenRight" Text="{Loc 'ui-lobby-round-summary-button'}" />
                         <Button Name="AHelpButton" Access="Public" Text="{Loc 'ui-lobby-ahelp-button'}"
-                            StyleClasses="ButtonBig OpenBoth">
-                        </Button>
-                        <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig OpenBoth">
-                        </vote:VoteCallMenuButton>
+                            StyleClasses="ButtonBig OpenBoth" />
+                        <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig OpenBoth" />
                         <Button Name="OptionsButton" Access="Public" Text="{Loc 'ui-lobby-options-button'}"
-                            StyleClasses="ButtonBig OpenBoth">
-                        </Button>
+                            StyleClasses="ButtonBig OpenBoth" />
                         <Button Name="LeaveButton" Access="Public" Text="{Loc 'ui-lobby-leave-button'}"
-                            StyleClasses="ButtonBig OpenLeft">
-                        </Button>
+                            StyleClasses="ButtonBig OpenLeft" />
                     </BoxContainer>
                     <controls:HSpacer Spacing="10" />
                     <!-- Server info -->
